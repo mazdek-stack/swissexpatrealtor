@@ -193,6 +193,7 @@ body.nav-open {
   display: inline-flex;
   align-items: center;
   gap: var(--spacing-xs);
+  vertical-align: baseline;
 }
 
 .nav-menu li.has-submenu > a::after {
