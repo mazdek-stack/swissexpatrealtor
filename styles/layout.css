@@ -84,12 +84,7 @@ body.nav-open {
 .navigation-overlay.scrolled .nav-menu {
   justify-content: flex-end;
   flex-wrap: nowrap;
-  gap: var(--spacing-sm);
-}
-
-.navigation-overlay.scrolled .nav-menu > li > a {
-  font-size: 0.82rem;
-  padding: var(--spacing-xs) var(--spacing-sm);
+  gap: var(--spacing-md);
 }
 
 .navigation-overlay.scrolled .nav-toggle {
