@@ -187,6 +187,8 @@ body.nav-open {
 .nav-menu li {
   margin-left: 0;
   position: relative;
+  display: flex;
+  align-items: center;
 }
 
 .nav-menu li.has-submenu > a {
