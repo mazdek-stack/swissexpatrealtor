@@ -2299,7 +2299,7 @@ body.nav-open {
 
 /* Simple Footer */
 .footer-simple {
-  background-color: #2d2d2f;
+  background-color: var(--light-grey);
   padding: var(--spacing-xxl) 0 var(--spacing-xl);
   text-align: center;
 }
@@ -2323,16 +2323,16 @@ body.nav-open {
   justify-content: center;
   width: 44px;
   height: 44px;
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(0, 0, 0, 0.1);
   border-radius: 50%;
-  color: #fff;
+  color: var(--dark-grey);
   font-size: 1.1rem;
   transition: all 0.3s ease;
 }
 
 .footer-social a:hover {
-  background: #fff;
-  color: #2d2d2f;
+  background: var(--dark-grey);
+  color: #fff;
   transform: translateY(-3px);
 }
 
@@ -2343,7 +2343,7 @@ body.nav-open {
 }
 
 .footer-contact p {
-  color: rgba(255, 255, 255, 0.9);
+  color: var(--dark-grey);
   font-size: 1rem;
   margin: 0;
 }
@@ -2355,13 +2355,13 @@ body.nav-open {
 }
 
 .footer-simple .footer-bottom p {
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--medium-grey);
   font-size: 0.9rem;
   margin: 0.25rem 0;
 }
 
 .footer-simple .footer-bottom strong {
-  color: rgba(255, 255, 255, 0.9);
+  color: var(--dark-grey);
 }
 
 /* Cookie Banner */
